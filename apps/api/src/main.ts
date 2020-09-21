@@ -1,6 +1,8 @@
 import * as express from 'express';
 import { Message } from '@example/api-interfaces';
+import { SIMPLE_CONSTANT } from './example-import'
 
+console.log(SIMPLE_CONSTANT)
 const app = express();
 
 const greeting: Message = { message: 'Welcome to api!' };
